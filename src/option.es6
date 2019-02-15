@@ -18,8 +18,8 @@ export const DEFAULT_OPTS = {
     }
   },
   katex: {
-    css: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css",
-    js: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js",
+    css: "https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css",
+    js: "https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js",
     config: {
       throwOnError: false,
       errorColor: "#cc0000"
