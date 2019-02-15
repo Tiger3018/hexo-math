@@ -113,10 +113,10 @@ Multiple line content will be parsed as block math (same as `$$...$$`)
 ```
 
 > **Deprecated since 2.0.0**
+> 
+> Tag Block:
 
->**Tag Block:**
-
->```markdown
+```markdown
 {% math_block %}
 \begin{aligned}
 \dot{x} & = \sigma(y-x) \\
@@ -132,9 +132,12 @@ Multiple line content will be parsed as block math (same as `$$...$$`)
 
 * `mathjax` should be moved under `math` section in your `_config.yml`
 
+
 ### Migrating to 2.1.0
 
 * `math_block` is removed
+
+<details>
 
 ### Migrating to 2.0.0
 
@@ -191,6 +194,7 @@ After `hexo-math` is updated, run install again:
 
 > $ hexo math install
 
+</details>
 
 ## Development
 
